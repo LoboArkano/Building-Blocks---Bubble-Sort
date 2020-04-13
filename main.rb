@@ -32,14 +32,8 @@ def bubble_sort_by(array)
   array
 end
 
-print bubble_sort([6, 2, 3, 7, 4, 8, 5])
+bubble_sort([6, 2, 3, 7, 4, 8, 5])
 
-puts
-
-arr = bubble_sort_by(%w[hi hello y hey]) do |left, right|
+bubble_sort_by(%w[hi hello y hey]) do |left, right|
   left.length - right.length
 end
-
-print arr
-
-puts
