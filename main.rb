@@ -1,21 +1,20 @@
 def bubble_sort(array)
-  if array.length <= 1
-    return array
-  else
-    previous_index = 0
-    next_index = 1
-    0.upto(array.length - 1) do
-      array.each_with_index do |_x, index|
-        previous_index = index
-        next_index = index + 1
-        break if next_index == array.length
+  array if array.length <= 1
 
-        if array[previous_index] > array[next_index]
-          array[previous_index], array[next_index] = array[next_index], array[previous_index]
-        end
+  previous_index = 0
+  next_index = 1
+  0.upto(array.length - 1) do
+    array.each_with_index do |_x, index|
+      previous_index = index
+      next_index = index + 1
+      break if next_index == array.length
+
+      if array[previous_index] > array[next_index]
+        array[previous_index], array[next_index] = array[next_index], array[previous_index]
       end
     end
   end
+
   array
 end
 
