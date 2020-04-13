@@ -1,17 +1,16 @@
 # Bubble Sort | Ruby
 
+The objective of this project is to put into practice what we learn for the Basic Ruby lesson on Microverse.
+Two methods make the task of sort the elements using the bubble sort algorithm. The first method receives an array as a parameter and the second receives a block.
 
 ## Built with
 
 - Ruby
 
-## Live Demo
-
-> N/A
-
 ## Getting Started
 
 **This is bubble sort challenge in Ruby.
+**If you have Ruby installed, you can use the next command to run the code: ruby main.rb
 
 ## Authors
 
